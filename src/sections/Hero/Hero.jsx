@@ -10,7 +10,7 @@ import linkedinDark from "../../assets/linkedin-dark.svg";
 // import CV from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import mks from "../../assets/mks.png";
-import midhunks from "../../assets/midhunks.pdf";
+import midhun from "../../assets/midhun.pdf";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -60,7 +60,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={midhunks} download>
+        <a href={midhun} download>
           <button className="hover">Resume</button>
         </a>
       </div>
